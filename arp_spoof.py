@@ -16,7 +16,7 @@ def get_arguments():
     if not options.target_ip:
         parser.error("[-] Please specify target IP address. Use --help for more info.")
     if not options.gateway_ip:
-        parser.error("[-] Please specify gateway IP. Use --help for more info.")
+        parser.error("[-] Please specify gateway IP address. Use --help for more info.")
     return options
 
 def get_mac(ip, timeout):
